@@ -15,7 +15,6 @@ public class ElecText implements Serializable{
     private String textName;
     private Date textDate;
     private String textRemark;
-    private String testColumn;
 
     public String getTextID() {
         return textID;
