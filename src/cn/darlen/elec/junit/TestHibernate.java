@@ -18,6 +18,17 @@ import java.util.Date;
  */
 public class TestHibernate {
 
+    /**
+     * 一、测试持久层搭建
+     * 1.获取configuration
+     * 2.创建session factory
+     * 3.打开session
+     * 4.开启事物
+     * 5.实例化对象
+     * 6.保存对象
+     * 7.提交事务
+     * 8关闭session
+     */
     @Test
     public void testElecText(){
         Configuration cfg = new Configuration();
